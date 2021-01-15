@@ -1,0 +1,6 @@
+There are Three different types of asteroids: large medium and
+small. Regardless of size, they are all fatal.
+Points:
+Large - 20 points
+Medium - 50 points
+Small - 100 points

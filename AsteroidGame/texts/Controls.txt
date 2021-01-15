@@ -1,0 +1,14 @@
+Keyboard
+
+Up Arrow Key & W: Accelerate Forward
+Left Arrow Key & A: Rotate Counter Clockwise
+Right Arrow Key & D: Rotate Clockwise
+Space Key: Shoot
+B: Bomb
+N: Nuke
+
+Mouse
+
+Move the mouse to change direction of acceleration
+Right-Click: Shoot
+Left-Click: Bomb
