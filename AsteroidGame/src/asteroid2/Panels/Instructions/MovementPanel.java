@@ -64,7 +64,7 @@ public class MovementPanel extends JPanel implements ActionListener {
         g2.setFont(new Font("Trebuchet MS", Font.PLAIN, (int) (game.getHeight() * 0.02)));
 
         try {
-            reader = new BufferedReader(new FileReader("texts\\Controls.txt"));
+            reader = new BufferedReader(new FileReader("AsteroidGame\\texts\\Controls.txt"));
 
             String line;
             double counter = 1;

@@ -46,7 +46,7 @@ public class ScorePanel extends JPanel {
         add(scoreLabel);
 
         try {
-            reader = new BufferedReader(new FileReader("texts\\HighScores.txt"));
+            reader = new BufferedReader(new FileReader("AsteroidGame\\texts\\HighScores.txt"));
             int counter = 0;
 
             String line;

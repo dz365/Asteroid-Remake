@@ -10,6 +10,7 @@ import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import javax.swing.JButton;
@@ -55,7 +56,7 @@ public class IntroductionPanel extends JPanel implements ActionListener {
         g2.setFont(new Font("roboto", Font.PLAIN, (int) (game.getHeight() * 0.02)));
 
         try {
-            reader = new BufferedReader(new FileReader("texts\\Introduction.txt"));
+            reader = new BufferedReader(new FileReader("AsteroidGame\\texts\\Introduction.txt"));
 
             String line;
             double counter = 1;

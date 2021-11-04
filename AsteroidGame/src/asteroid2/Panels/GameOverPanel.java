@@ -83,7 +83,7 @@ public class GameOverPanel extends JPanel implements ActionListener {
         ArrayList<String> scores = new ArrayList<>();
 
         try {
-            reader = new BufferedReader(new FileReader("texts\\HighScores.txt"));
+            reader = new BufferedReader(new FileReader("AsteroidGame\\texts\\HighScores.txt"));
 
             String line;
             while ((line = reader.readLine()) != null) {

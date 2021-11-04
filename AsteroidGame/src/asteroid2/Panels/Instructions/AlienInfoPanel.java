@@ -63,7 +63,7 @@ public class AlienInfoPanel extends JPanel implements ActionListener {
         g2.setFont(new Font("Trebuchet MS", Font.PLAIN, (int) (game.getHeight() * 0.02)));
 
         try {
-            reader = new BufferedReader(new FileReader("texts\\AlienInfo.txt"));
+            reader = new BufferedReader(new FileReader("AsteroidGame\\texts\\AlienInfo.txt"));
 
             String line;
             double counter = 1;

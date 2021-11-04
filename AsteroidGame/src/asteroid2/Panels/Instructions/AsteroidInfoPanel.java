@@ -68,7 +68,7 @@ public class AsteroidInfoPanel extends JPanel implements ActionListener {
         g2.setFont(new Font("roboto", Font.PLAIN, (int) (game.getHeight() * 0.02)));
 
         try {
-            reader = new BufferedReader(new FileReader("texts\\AsteroidInfo.txt"));
+            reader = new BufferedReader(new FileReader("AsteroidGame\\texts\\AsteroidInfo.txt"));
 
             String line;
             double counter = 1;
